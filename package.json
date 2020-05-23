@@ -1,0 +1,24 @@
+{
+  "name": "@rawewhat/react-native-picker",
+  "description": "Picker or Selector for React Native with zero dependency and cross-platform.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "github:rawewhat/react-native-picker",
+  "keywords": [
+    "picker",
+    "selector",
+    "react",
+    "native",
+    "cross",
+    "platform",
+    "ios",
+    "android"
+  ],
+  "author": "Cheng Sokdara <chengsokdara@gmail.com> (http://rawewhat-team.web.app)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawewhat/react-native-icker/issues",
+    "email": "chengsokdara@gmail.com"
+  },
+  "homepage": "https://github.com/rawewhat/react-native-picker"
+}
