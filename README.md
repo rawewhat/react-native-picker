@@ -2,6 +2,9 @@
 
 Picker or Selector for React Native with **zero dependency** and **cross-platform**.
 
+## Demo
+![demo](demo.gif)
+
 ## [Changelog](https://github.com/rawewhat/react-native-paper/blob/master/CHANGELOG.md)
 
 ## Content
