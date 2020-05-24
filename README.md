@@ -1,7 +1,6 @@
 # React Native Picker
 
 **Cross-platform** Picker or Selector for React Native with **zero dependency** and heavily customizable styling.
-
 ###### Created by Cheng Sokdara of rawewhat
 
 ## Demo
@@ -30,11 +29,21 @@ using yarn
 - just import Picker in any component you want to use it
 
 `import { Picker } from '@rawewhat/react-native-picker'`  
+
+or  
+
 `import Picker from '@rawewhat/react-native-picker'`
 
-- then use it in your return function or render function
+- then use it in your component return function
 
-`return <Picker />`
+`return <Picker />`  
+
+or  
+
+`render() {
+  return <Picker />
+}
+`
 
 ## API
 
@@ -137,8 +146,16 @@ export default App;
 ```javascript
 ...
 const data = [
-  { id: "sdf8fs8f7sdfsd8f58fsd8f58s5df8sd6f5", first_name: "Name 1", qrCode: "code1" },
-  { id: "f8sd7f9sd9f8ds9f8sdf8dsf989987sd9fd", first_name: "Name 2", qrCode: "code2" },
+  {
+    id: "sdf8fs8f7sdfsd8f58fsd8f58s5df8sd6f5",
+    first_name: "Name 1",
+    qrCode: "code1"
+  },
+  {
+    id: "f8sd7f9sd9f8ds9f8sdf8dsf989987sd9fd",
+    first_name: "Name 2",
+    qrCode: "code2"
+  },
 ];
 
 const App = () => {
@@ -148,7 +165,11 @@ const App = () => {
 
   return (
     <View>
-      <Picker data={data} labelField="first_name" valueField="qrCode" onChange={_handleChange} />
+      <Picker
+        data={data}
+        labelField="first_name"
+        valueField="qrCode"
+        onChange={_handleChange} />
     </View>
   );
 };
@@ -161,7 +182,7 @@ const App = () => {
 MIT License
 -----------
 
-Copyright (c) 2019 Cheng Sokdara (https://rawewhat-team.com)
+Copyright (c) 2020 Cheng Sokdara (https://rawewhat-team.web.com)
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without
